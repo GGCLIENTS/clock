@@ -19,11 +19,12 @@
   }
   .gg{
     background-color: white;
-    width: 500px;
+    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 15px;
+    border: 10px solid black;
   }
   .clock .number {
     --rotation: 0;
