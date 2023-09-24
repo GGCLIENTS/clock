@@ -51,6 +51,7 @@ function displayTime(){
     var RED = document.getElementById('a')
     var RED = document.getElementById('b')
     var RED = document.getElementById('c')
+    var h = document.getElementsByTagName('h1')[0]
     var RED = document.getElementById('d')
     var RED = document.getElementById('e')
     var RED = document.getElementById('f')
@@ -75,12 +76,14 @@ function displayTime(){
     G.style.backgroundColor = "Red"
     GG.style.backgroundColor = "Red"
     body.style.backgroundColor = "Red"
+    h.style.color = "Red"
   }
   function blue(){
     var body = document.getElementsByTagName('body')[0]
     var GG = document.getElementById('min')
     var G = document.getElementById('hor')
     var RED = document.getElementById('l')
+    var h = document.getElementsByTagName('h1')[0]
     var RED = document.getElementById('a')
     var RED = document.getElementById('b')
     var RED = document.getElementById('c')
@@ -108,6 +111,7 @@ function displayTime(){
     G.style.backgroundColor = "blue"
     GG.style.backgroundColor = "blue"
     body.style.backgroundColor = "blue"
+    h.style.color = "blue"
   }
   function green(){
     var body = document.getElementsByTagName('body')[0]
@@ -118,6 +122,7 @@ function displayTime(){
     var RED = document.getElementById('b')
     var RED = document.getElementById('c')
     var RED = document.getElementById('d')
+    var h = document.getElementsByTagName('h1')[0]
     var RED = document.getElementById('e')
     var RED = document.getElementById('f')
     var RED = document.getElementById('g')
@@ -141,4 +146,119 @@ function displayTime(){
     G.style.backgroundColor = "green"
     GG.style.backgroundColor = "green"
     body.style.backgroundColor = "green"
+    h.style.color = "green"
   }
+  function yellow(){
+    var body = document.getElementsByTagName('body')[0]
+    var GG = document.getElementById('min')
+    var G = document.getElementById('hor')
+    var RED = document.getElementById('l')
+    var RED = document.getElementById('a')
+    var RED = document.getElementById('b')
+    var RED = document.getElementById('c')
+    var RED = document.getElementById('d')
+    var h = document.getElementsByTagName('h1')[0]
+    var RED = document.getElementById('e')
+    var RED = document.getElementById('f')
+    var RED = document.getElementById('g')
+    var RED = document.getElementById('h')
+    var RED = document.getElementById('i')
+    var RED = document.getElementById('j')
+    var RED = document.getElementById('k')
+    a.style.color= "yellow"
+    b.style.color= "yellow"
+    c.style.color= "yellow"
+    d.style.color= "yellow"
+    e.style.color= "yellow"
+    f.style.color= "yellow"
+    g.style.color= "yellow"
+    h.style.color= "yellow"
+    i.style.color= "yellow"
+    j.style.color= "yellow"
+    k.style.color= "yellow"
+    l.style.color= "yellow"
+    redp.style.color = "yellow"
+    G.style.backgroundColor = "yellow"
+    GG.style.backgroundColor = "yellow"
+    body.style.backgroundColor = "yellow"
+    h.style.color = "yellow"
+  }
+  function purple(){
+    var body = document.getElementsByTagName('body')[0]
+    var GG = document.getElementById('min')
+    var G = document.getElementById('hor')
+    var RED = document.getElementById('l')
+    var RED = document.getElementById('a')
+    var RED = document.getElementById('b')
+    var RED = document.getElementById('c')
+    var RED = document.getElementById('d')
+    var RED = document.getElementById('e')
+    var RED = document.getElementById('f')
+    var RED = document.getElementById('g')
+    var RED = document.getElementById('h')
+    var RED = document.getElementById('i')
+    var RED = document.getElementById('j')
+    var RED = document.getElementById('k')
+    var h = document.getElementsByTagName('h1')[0]
+    a.style.color= "purple"
+    b.style.color= "purple"
+    c.style.color= "purple"
+    d.style.color= "purple"
+    e.style.color= "purple"
+    f.style.color= "purple"
+    g.style.color= "purple"
+    h.style.color= "purple"
+    i.style.color= "purple"
+    j.style.color= "purple"
+    k.style.color= "purple"
+    l.style.color= "purple"
+    redp.style.color = "purple"
+    G.style.backgroundColor = "purple"
+    GG.style.backgroundColor = "purple"
+    body.style.backgroundColor = "purple"
+    h.style.color = "purple"
+  }
+  function white(){
+    var body = document.getElementsByTagName('body')[0]
+    var GG = document.getElementById('min')
+    var G = document.getElementById('hor')
+    var RED = document.getElementById('l')
+    var RED = document.getElementById('a')
+    var RED = document.getElementById('b')
+    var RED = document.getElementById('c')
+    var h = document.getElementsByTagName('h1')[0]
+    var RED = document.getElementById('d')
+    var RED = document.getElementById('e')
+    var RED = document.getElementById('f')
+    var RED = document.getElementById('g')
+    var RED = document.getElementById('h')
+    var RED = document.getElementById('i')
+    var RED = document.getElementById('j')
+    var RED = document.getElementById('k')
+    a.style.color= "pink"
+    b.style.color= "pink"
+    c.style.color= "pink"
+    d.style.color= "pink"
+    e.style.color= "pink"
+    f.style.color= "pink"
+    g.style.color= "pink"
+    h.style.color= "pink"
+    i.style.color= "pink"
+    j.style.color= "pink"
+    k.style.color= "pink"
+    l.style.color= "pink"
+    redp.style.color = "pink"
+    G.style.backgroundColor = "pink"
+    GG.style.backgroundColor = "pink"
+    body.style.backgroundColor = "pink"
+    h.style.color = "pink"
+  }
+  var currentDate = new Date();
+
+        var year = currentDate.getFullYear();
+        var month = currentDate.getMonth() + 1; 
+        var day = currentDate.getDate();
+
+        var formattedDate = year + '-' + (month < 10 ? '0' : '') + month + '-' + (day < 10 ? '0' : '') + day;
+
+        document.getElementById('dateDisplay').textContent = formattedDate;
